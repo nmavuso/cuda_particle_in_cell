@@ -1,16 +1,24 @@
-# GPU-Accelerated Particle-In-Cell (PIC) Plasma Simulation
+# GPU-Accelerated PIC Plasma Simulation
 
 ## Overview
-This project implements a **Particle-In-Cell (PIC) plasma simulation** on GPUs using CUDA. The PIC method is widely used in plasma physics to simulate charged particle dynamics and electromagnetic field interactions.
 
-## Features
-- Solves Maxwell’s equations and particle motion **self-consistently**.
-- Fully parallelized **charge deposition and field updates**.
-- **Optimized memory management** for billions of charged particles.
-- 100x speedup over CPU-based simulations.
+This project implements a **Particle-In-Cell (PIC) plasma simulation** on GPUs using CUDA. It includes:
+- GPU-accelerated charge deposition and field updates.
+- A simple Jacobi solver for the Poisson equation.
+- A basic particle pusher (using an Euler update).
+
+## Files
+
+- `main.cu`: Contains the CUDA code for the simulation.
+- `Makefile`: Build script for compiling the project.
+- `README.md`: This file.
 
 ## Installation
+
+Clone the repository and compile the project:
+
 ```bash
 git clone https://github.com/yourusername/cuda-pic-simulation.git
 cd cuda-pic-simulation
 make
+
