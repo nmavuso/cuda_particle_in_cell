@@ -18,7 +18,7 @@ This project implements a **Particle-In-Cell (PIC) plasma simulation** on GPUs u
 Clone the repository and compile the project:
 
 ```bash
-git clone https://github.com/nmavuso/cuda-pic-simulation.git
+git clone https://github.com/nmavuso/cuda_particle_in_cell.git
 cd cuda-pic-simulation
 make
 
