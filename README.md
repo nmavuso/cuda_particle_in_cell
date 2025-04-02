@@ -7,7 +7,7 @@ This project implements a **Particle-In-Cell (PIC) plasma simulation** on GPUs u
 - A simple Jacobi solver for the Poisson equation.
 - A basic particle pusher (using an Euler update).
 
-##Prerequisites 
+## Prerequisites 
 
 NVIDIA GPU
 nvcc 
