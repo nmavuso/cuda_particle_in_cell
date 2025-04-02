@@ -19,6 +19,6 @@ Clone the repository and compile the project:
 
 ```bash
 git clone https://github.com/nmavuso/cuda_particle_in_cell.git
-cd cuda-pic-simulation
+cd cuda_particle_in_cell
 make
 
