@@ -10,6 +10,7 @@ This project implements a **Particle-In-Cell (PIC) plasma simulation** on GPUs u
 ## Prerequisites 
 
 NVIDIA GPU
+
 nvcc 
 
 ## Files
